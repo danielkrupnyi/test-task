@@ -1,0 +1,196 @@
+:root {
+	--spacing-10: 4px;
+	--spacing-20: 8px;
+	--spacing-30: 16px;
+	--spacing-40: 24px;
+	--spacing-50: 40px;
+	--spacing-60: 64px;
+	--spacing-70: 104px;
+	--font-line-height-spaced: 150%;
+	--font-line-height-compact: 110%;
+	--font-variation-settings-display-condensed-italic: initial;
+	--font-variation-settings-display-condensed-roman: initial;
+	--font-variation-settings-display-normal-italic: initial;
+	--font-variation-settings-display-normal-roman: initial;
+	--font-variation-settings-book-condensed-italic: initial;
+	--font-variation-settings-book-condensed-roman: initial;
+	--font-variation-settings-book-normal-italic: initial;
+	--font-variation-settings-book-normal-roman: initial;
+	--font-feature-settings-display-italic: initial;
+	--font-feature-settings-display-roman: initial;
+	--font-feature-settings-book-italic: initial;
+	--font-feature-settings-book-roman: initial;
+	--font-size-10-responsive-book-letter-spacing: 0.005em;
+	--font-size-10-responsive-book: 10px;
+	--font-size-20-responsive-book-letter-spacing: -0.01em;
+	--font-size-20-responsive-book: 12px;
+	--font-size-30-responsive-book-letter-spacing: -0.015em;
+	--font-size-30-responsive-book: 14px;
+	--font-size-40-responsive-book-letter-spacing: -0.02em;
+	--font-size-40-responsive-book: 16px;
+	--font-size-50-responsive-book-letter-spacing: -0.025em;
+	--font-size-50-responsive-book: 18px;
+	--font-size-60-responsive-book-letter-spacing: -0.03em;
+	--font-size-60-responsive-book: 20px;
+	--font-size-70-responsive-display-letter-spacing: -0.035em;
+	--font-size-70-responsive-display: 24px;
+	--font-size-80-responsive-display-letter-spacing: -0.04em;
+	--font-size-80-responsive-display: 32px;
+	--font-size-90-responsive-display-letter-spacing: -0.045em;
+	--font-size-90-responsive-display: 40px;
+	--font-size-100-responsive-display-letter-spacing: -0.05em;
+	--font-size-100-responsive-display: 48px;
+	--font-size-110-responsive-display-letter-spacing: -0.055em;
+	--font-size-110-responsive-display: 56px;
+	--font-size-120-responsive-display-letter-spacing: -0.06em;
+	--font-size-120-responsive-display: 64px;
+	--font-weight-bold: 700;
+	--font-weight-semibold: 600;
+	--font-weight-regular: 400;
+	--font-weight-light: 300;
+	--font-family-monospaced-fallback: 'JetBrains Mono', 'Lucida Console', Monaco,
+		monospace;
+	--font-family-monospaced: 'JetBrains Mono';
+	--font-family-display-fallback: Arial, Inter, -apple-system, 'system-ui',
+		Roboto, 'Helvetica Neue', Helvetica, Noto, Ubuntu, 'Segoe UI', sans-serif;
+	--font-family-display: 'glbOpenSans', 'Open Sans';
+	--font-family-book-fallback: Arial, Inter, -apple-system, 'system-ui', Roboto,
+		'Helvetica Neue', Helvetica, Noto, Ubuntu, 'Segoe UI', sans-serif;
+	--font-family-book: 'glbOpenSans', 'Open Sans';
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-weight: 700;
+	src: url(fonts/opensans-bold-normal.woff2) format('woff2'),
+		url(fonts/opensans-bold-normal.woff2) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-style: italic;
+	font-weight: 700;
+	src: url(fonts/opensans-bold-italic.woff2) format('woff2'),
+		url(fonts/opensans-bold-italic.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-style: italic;
+	font-weight: 400;
+	src: url(fonts/opensans-regular-italic.woff2) format('woff2'),
+		url(fonts/opensans-regular-italic.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-weight: 300;
+	src: url(fonts/opensans-light-normal.woff2) format('woff2'),
+		url(fonts/opensans-light-normal.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-style: italic;
+	font-weight: 300;
+	src: url(fonts/opensans-light-italic.woff2) format('woff2'),
+		url(fonts/opensans-light-italic.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-weight: 400;
+	src: url(fonts/opensans-regular-normal.woff2) format('woff2'),
+		url(fonts/opensans-regular-normal.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-weight: 600;
+	src: url(fonts/opensans-semibold-normal.woff2) format('woff2'),
+		url(fonts/opensans-semibold-normal.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: glbOpenSans;
+	font-style: italic;
+	font-weight: 600;
+	src: url(fonts/opensans-semibold-italic.woff2) format('woff2'),
+		url(fonts/opensans-semibold-italic.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	src: url(fonts/opensans-bold-normal.woff2) format('woff2'),
+		url(fonts/opensans-bold-normal.woff2) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 700;
+	src: url(fonts/opensans-bold-italic.woff2) format('woff2'),
+		url(fonts/opensans-bold-italic.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: url(fonts/opensans-regular-italic.woff2) format('woff2'),
+		url(fonts/opensans-regular-italic.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	src: url(fonts/opensans-light-normal.woff2) format('woff2'),
+		url(fonts/opensans-light-normal.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 300;
+	src: url(fonts/opensans-light-italic.woff2) format('woff2'),
+		url(fonts/opensans-light-italic.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	src: url(fonts/opensans-regular-normal.woff2) format('woff2'),
+		url(fonts/opensans-regular-normal.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	src: url(fonts/opensans-semibold-normal.woff2) format('woff2'),
+		url(fonts/opensans-semibold-normal.woff) format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 600;
+	src: url(fonts/opensans-semibold-italic.woff2) format('woff2'),
+		url(fonts/opensans-semibold-italic.woff) format('woff');
+	font-display: swap;
+}
